@@ -20,7 +20,7 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.FileNotFoundException;
 /**
- * Classe onde se encontra e é gerida toda a informação da aplicação, nomeadamente utilizadores e viaturas.
+ * Classe onde se encontra e é gerida toda2 a informação da aplicação, nomeadamente utilizadores e viaturas.
  *
  * @author grupo poo
  * @version (a version number or a date)

@@ -79,7 +79,7 @@ public abstract class Viatura implements Serializable, Comparable<Viatura>
    this.posViatura=outraViatura.getPosViatura();
    this.estado = outraViatura.getEstado();
    this.vMedia=outraViatura.getVMedia();
-   this.precoBaseKm= outraViatura.getPrecoBaseKm();
+   this.precoBaseKm = outraViatura.getPrecoBaseKm();
    this.historial =outraViatura.getHistorial();
    this.classificacao = outraViatura.getClassificacao();
    this.nAlugueres =outraViatura.getNAlugueres();
