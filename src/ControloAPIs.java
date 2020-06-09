@@ -36,7 +36,7 @@ public class ControloAPIs {
      ao ficheiro JSON que nos e devolvido quando e feita a chamada
      da API ipInfoBD*/
   private static JSONObject getJSONIP() throws Exception {
-     String url = "http://api.ipinfodb.com/v3/ip-city/?key=e0be799dbaeea0a95e9f90874a3b9ae3a2c9281846f0742d9c9e3547e2375fa0&format=json";
+     String url = // colocar aqui a APIKEY &format=json";
      URL obj = new URL(url);
      HttpURLConnection con = (HttpURLConnection) obj.openConnection();
      // optional default is GET
@@ -84,7 +84,7 @@ public class ControloAPIs {
    */       
   private static JSONObject getWeatherJSON() throws Exception {
      List<String> localizacao = getLatLon();
-     String url = "http://api.openweathermap.org/data/2.5/forecast?lat="+localizacao.get(0)+"&lon="+localizacao.get(1)+"&APPID=57ac60b5e1a273ea45029e6be26998ca&units=metric";
+     String url = "http://api.openweathermap.org/data/2.5/forecast?lat="+localizacao.get(0)+"&lon="+localizacao.get(1)+"colocar aqui a APIKEY &units=metric";
      URL obj = new URL(url);
      HttpURLConnection con = (HttpURLConnection) obj.openConnection();
      // optional default is GET
